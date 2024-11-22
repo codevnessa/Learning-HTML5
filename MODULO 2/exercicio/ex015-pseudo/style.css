@@ -1,0 +1,35 @@
+body{
+    background-attachment: fixed;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: cyan;
+}
+a::before{
+    content: '⇒';
+}
+a::after{
+    content: '⇐';
+}
+h1{
+    background-color: #99a8b4;
+    width: 200px;
+    height: 200px;
+   border: 10px solid blueviolet;/*width style color*/
+   padding: 10px 10px 10px 10px; /*top right bottom left, se colocar apenas uma medida, vale para todos, se for duas, top=bottom e right=left*/
+   margin: 20px auto;/*a mesma coisa com padding, auto  serve para deixar automatico e */
+   outline: 10 style rgb(222, 184, 135);
+
+}
+a{
+    border-width: 1px;
+    border-style: double;
+    border-color: bisque;
+}
